@@ -1,0 +1,152 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/macro161/}{\Large Matas Savickis}} & Email : \href{mailto:savickismatas@gmail.com}{savickismatas@gmail.com}\\
+  \href{https://github.com/macro161/}{https://github.com/macro161/} & Mobile : +37069068615 \\
+  \href{https://www.linkedin.com/in/matas-savickis-669a25134/}{https://www.linkedin.com/in/matas-savickis-669a25134/}	
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stasys Šalkauskis gymnasium}{Lithuania, Šiauliai}
+      {Secondary education}{2010 - 2015}
+    \resumeSubheading
+      {Vilnius University Faculty of Mathematics and Informatics }{Lithuania, Vilnius}
+      {Bachelor of Informatics}{2015 - 2016}
+    \resumeSubheading
+      {Vilnius University Faculty of Mathematics and Informatics }{Lithuania, Vilnius}
+      {Bachelor of Software engineering}{2016 - 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Devbridge Group}{Lithuania, Vilnius}
+      {Software developer(Sourcery academy internship)}{March 2018 - June 2018}
+      \resumeItemListStart
+        \resumeItem{React}
+          {React is JavaScript library that our team used to create front end for reception application}
+        \resumeItem{ASP.NET Core}
+          {This is C\# framework that we used for back end}
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Tieto}{Lithuania, Vilnius}
+      {Software developer(Month with IT internship)}{Aug 2018 - Sep 2018}
+      \resumeItemListStart
+        \resumeItem{React native}
+          {It is a framework that we used to create front end for Scooter sharing Android application. We use Typescript to develop application.}
+        \resumeItem{ASP.NET Core}
+          {This is C\# framework that we used for back end}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: C\#, Javascript, Typescript, SQL, C++, C, Assembly, JSON, HTML, CSS, LaTeX}
+      \hfill
+      \textbf{Technologies}{: ASP.NET Core, React, React native, Entity framework,  Microsoft SQL Server, Git}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Other}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Lietuvos Atgaja summer camps volunteer}
+      {Every summer I am volunteering in childern summer camp Lietuvos Atgaja from 2017 as a camp counselor}
+    \resumeSubItem{Drivers license}
+      {Category B drivers license from 2016}
+    \resumeSubItem{Lindyhop dancing}
+      {Intermediate(INT) skill level. Dancing from 2016}
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+\end{document}
