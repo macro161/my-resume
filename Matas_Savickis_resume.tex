@@ -3,9 +3,7 @@
 % Author : Sourabh Bajaj
 % License : MIT
 %------------------------
-
 \documentclass[letterpaper,11pt]{article}
-
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -15,32 +13,25 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
-
 \urlstyle{same}
-
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
@@ -48,7 +39,6 @@
     \textbf{#1}{: #2 \vspace{-2pt}}
   }
 }
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -56,22 +46,15 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
-
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-
 \renewcommand{\labelitemii}{$\circ$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
-
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://github.com/macro161/}{\Large Matas Savickis}} & Email : \href{mailto:savickismatas@gmail.com}{savickismatas@gmail.com}\\
@@ -80,18 +63,11 @@
 \end{tabular*}
 
 \section{Profile}
-
       	I am a software engineering student seeking position in the field of software development, where I can apply my knowledge and skills for continuous improvement. 
 	My main interest areas are backend development, parallel programming, distributed systems, formal specification and low level software development concepts.
- 
-
-
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Stasys Šalkauskis gymnasium}{Šiauliai, Lithuania}
-      {Secondary education}{2010 - 2015}
     \resumeSubheading
       {Vilnius University Faculty of Mathematics and Informatics }{Vilnius, Lithuania}
       {Bachelor of Software engineering}{2016 - 2020}
@@ -99,15 +75,12 @@
       {Vilnius University Faculty of Mathematics and Informatics }{Vilnius, Lithuania}
       {Master's degree of Software engineering(currently studying)}{2020 - 2022}
   \resumeSubHeadingListEnd
-
-
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Addendum Solutions}{Vilnius, Lithuania}
-      {Software developer}{April 2019 - October 2019}
+      {Software developer}{April 2019 - October 2019 (7 months)}
       \resumeItemListStart
         \resumeItem{Project}
           {Our team developed and maintained  Vilnius waters self-service systems (https://savitarna.vv.lt/login.html)}
@@ -116,13 +89,12 @@
         \resumeItem{Front-end}
 	{HTML, CSS, Javascript}
       \resumeItemListEnd
-
     \resumeSubheading
       {Nasdaq}{Vilnius, Lithuania}
-      {Software developer}{November 2019 - Presant}
+      {Software developer}{November 2019 - November 2020 (1 year)}
       \resumeItemListStart
 	 \resumeItem{Project}
-	          {Developing Nasdaq Central Securities Depository(CSD https://nasdaqcsd.com/) system for various customers around the globe}
+	          {Developing Nasdaq Central Securities Depository system for various customers around the globe}
 	 \resumeItem{Back-end}
 	          {Java 11, Spring, Java EE, JBoss, JUnit, Mockito, OracleDB, PostgresSQL}
 	 \resumeItem{Front-end}
@@ -130,12 +102,14 @@
 	 \resumeItem{CD/CI}
 	          {TeamCity, Docker}
       \resumeItemListEnd
-
-      
+    \resumeSubheading
+      {Oracle}{Vilnius, Lithuania}
+      {Software developer}{November 2019 - Presant}
+      \resumeItemListStart
+	 \resumeItem{Project}
+	          {Oracle Cloud Infrastructure}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
-
-
-
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
   \resumeSubHeadingListStart
@@ -148,8 +122,6 @@
 	\hfil
 	}
   \resumeSubHeadingListEnd
-
-
 %-----------OTHER-----------------
 \section{Other}
   \resumeSubHeadingListStart
@@ -161,15 +133,5 @@
       {I casually play chess when I have a free minute or two (FIDE - approx. 1400)}
     \resumeSubItem{Lindyhop dancer}
       {I'm an avid dancer, being a member of "lindyhop.lt" club from 2016 }
-    \resumeSubItem{Drivers license}
-      {Category B drivers license from 2016}
-
-
   \resumeSubHeadingListEnd
-
-
-
-
-
-
 \end{document}
